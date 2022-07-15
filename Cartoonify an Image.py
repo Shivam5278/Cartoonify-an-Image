@@ -26,7 +26,7 @@ def cartoonify(ImagePath):
     # read the image
     originalmage = cv2.imread(ImagePath)
     originalmage = cv2.cvtColor(originalmage, cv2.COLOR_BGR2RGB)
-    #print(image)  # image is stored in form of numbers
+      # image is stored in form of numbers
 
     # confirm that image is chosen
     if originalmage is None:
